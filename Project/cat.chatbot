@@ -1,0 +1,33 @@
+def cat_chatbot():
+  print("Hello! I'm your cat chatbot. Ask me anything about cats!")
+  
+  while True:
+      user_input = input("You: ").lower()
+
+      if "hello" in user_input or "hi" in user_input:
+          print("Chatbot: Hello there! How can I help you with cats today?")
+
+      elif "cat" in user_input and "name" in user_input:
+          print("Chatbot: A good cat name is Oliver!")
+
+      elif "food" in user_input or "eat" in user_input:
+          print("Chatbot: Cats usually enjoy a variety of meat. My cat loves turkey!")
+
+      elif "evolve" in user_input or "originate" in user_input:
+        print("Chatbot: All domesticated cats originated from the same ancient cat Felis silvestris lybica (or, African Wildcat) which is still found throughout Africa, southwest and central Asia, India, China, and Mongolia. (https://www.rover.com/blog/where-do-cats-come-from/)")
+
+      elif "play" in user_input or "toy" in user_input:
+        print("Chatbot: Cats love to play. A popular cat toy is a laser!")
+
+      elif "bye" in user_input or "exit" in user_input:
+          print("Chatbot: Goodbye! Have a purr-fect day!")
+          break
+
+      else:
+          print("Chatbot: I'm not sure how to respond to that. Ask me something else")
+
+if __name__ == "__main__":
+  cat_chatbot()
+
+if __name__ == "__main__":
+  cat_chatbot()
